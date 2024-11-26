@@ -1,9 +1,4 @@
 
-# DSFolio V1
-
-<center>
-    <img src="/public/cover.png" alt="DSFolio" />
-</center>
 
 <center>
 
