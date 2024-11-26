@@ -1,18 +1,12 @@
 
 
-<center>
-
-https://dsfolio-v1.vercel.app/
-
-</center>
-
 ## Technologies Used
 <img  src="https://skillicons.dev/icons?i=html,css,react,tailwind,netlify&perline=7"/>
 
 ## Installation
 1. Clone the repository
     ```bash 
-    git clone https://github.com/dsbalico/dsfolio-v1.git
+    git clone https://github.com/wahyupratamaaa/wpfolio.git
     ```
 2. Change into the project directory
     ```bash
