@@ -7,7 +7,15 @@ export default {
     "./node_modules/preline/preline.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heebo: ["Heebo", "sans-serif"],
+        // poppins: ["Poppins", "sans-serif"],
+        reenie: ["Reenie Beanie", "cursive"],
+        aurore: ["La Belle Aurore", "cursive"],
+        comfortaa: ["Comfortaa", "cursive"],
+      },
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("preline/plugin")],

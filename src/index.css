@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: "Heebo", sans-serif;
+/* Import font dari Google Fonts */
 
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Reenie+Beanie&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"); */
+
+/* @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Reenie+Beanie&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+/* Global root styles */
+:root {
+  font-family: "Heebo", sans-serif; /* Default font adalah Heebo */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,18 +21,19 @@
   scroll-behavior: smooth;
 }
 
-/* width */
+/* Custom scrollbar styling */
+/* Lebar scroll */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-/* Handle */
+/* Gaya thumb scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #991b1b;
+  background: #991b1b; /* Warna utama scrollbar */
 }
 
-/* Handle on hover */
+/* Hover efek untuk thumb scrollbar */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #555; /* Warna thumb saat hover */
 }

@@ -2,7 +2,7 @@ import { CiLink } from "react-icons/ci";
 
 function Project({ title, description, technologies, link, github }) {
   return (
-    <div className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl">
+    <div className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl mt-20">
       <div className="flex gap-2 overflow-x-scroll py-2">
         {/* =========== TECHNOLOGIES USED =========== */}
         {technologies.split(",").map((tech, index) => (
@@ -25,18 +25,20 @@ function Project({ title, description, technologies, link, github }) {
 
       <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
         {/* =========== PROJECT LINK =========== */}
-        <a href={link} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+        <a
+          href={link}
+          className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
+        >
           <CiLink className="text-2xl self-center" />
-          <span className="text-xs self-center">
-            View Project
-          </span>
+          <span className="text-xs self-center">View Project</span>
         </a>
         {/* =========== PROJECT GITHUB =========== */}
-        <a href={github} className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300">
+        <a
+          href={github}
+          className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
+        >
           <CiLink className="text-2xl self-center" />
-          <span className="text-xs self-center">
-            View Github
-          </span>
+          <span className="text-xs self-center">View Github</span>
         </a>
       </div>
     </div>

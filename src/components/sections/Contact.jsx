@@ -1,10 +1,17 @@
 import user_info from "../../data/user_info.js";
 
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaMedium, FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 function Contact() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <section id="contact" className="mt-16 pt-12 px-6 lg:px-24">
       {/* =========== TITLE =========== */}
@@ -23,23 +30,23 @@ function Contact() {
       {/* =========== LINKS =========== */}
       <div className="mt-12">
         {/* =========== FACEBOOK =========== */}
-        <a
+        {/* <a
           href={user_info.socials.facebook}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300  hover:text-zinc-700 transition-all duration-300"
         >
           <FaFacebook className="self-center text-lg text-red-800 dark:text-red-500" />
           <span className="self-center">Follow on Facebook</span>
-        </a>
+        </a> */}
 
         {/* =========== X =========== */}
         <a
-          href={user_info.socials.twitter}
+          href={user_info.socials.medium}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
         >
-          <FaSquareXTwitter className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on X</span>
+          <FaMedium className="self-center text-lg text-red-800 dark:text-red-500" />
+          <span className="self-center">Follow on Medium</span>
         </a>
-        
+
         {/* =========== INSTAGRAM =========== */}
         <a
           href={user_info.socials.instagram}
@@ -62,13 +69,22 @@ function Contact() {
       <hr className="mt-6 w-72 border dark:border-zinc-800" />
 
       {/* =========== EMAIL =========== */}
-      <a
-        href={`mailto:${user_info.main.email}`}
-        className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-30"
-      >
-        <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
-        <span>{user_info.main.email}</span>
-      </a>
+      <div className="flex flex-row items-center justify-between mb-10">
+        <a
+          href={`mailto:${user_info.main.email}`}
+          className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-30"
+        >
+          <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
+          <span>{user_info.main.email}</span>
+        </a>
+        <button
+          onClick={() => scrollToTop()}
+          className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 mx-auto md:mx-0 text-sm font-light flex gap-2 justify-center items-center"
+        >
+          <FaArrowCircleUp className="self-center text-red-800 dark:text-red-500" />{" "}
+          Go back to top
+        </button>
+      </div>
     </section>
   );
 }
