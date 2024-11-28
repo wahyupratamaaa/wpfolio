@@ -33,9 +33,17 @@ function Hero() {
         <div className="flex gap-2 align-center flex-wrap md:flex-nowrap mt-5">
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
             <h2 className="text-xl">{user_info.main.role}</h2>
-            <h1 className="mt-4 text-5xl lg:w-[85%] font-poppins font-bold text-gray-400">
+            <h1 className="mt-4 text-5xl lg:w-[85%] font-poppins  text-gray-400 flex flex-row items-center gap-4 ">
               {user_info.main.name}
+              <img
+                src={user_info.main.icon}
+                alt="icon"
+                className="w-20 h-auto opacity-80"
+              />
             </h1>
+            {/* <div>
+              <img src={user_info.main.icon} alt="icon" />
+            </div> */}
 
             <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
               {user_info.main.description}
