@@ -25,7 +25,7 @@ function EducationAndExperience() {
             <div key={index}>
               {/* =========== DURATION =========== */}
               <div className="ps-2 my-2 first:mt-0 !mt-2">
-                <h3 className="text-xs font-medium uppercase text-zinc-500 dark:text-zinc-400">
+                <h3 className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
                   {edu.duration}
                 </h3>
               </div>
@@ -189,7 +189,7 @@ function EducationAndExperience() {
             return (
               <div key={index}>
                 <div className="ps-2 my-2 first:mt-0 !mt-2">
-                  <h3 className="text-xs font-medium uppercase text-zinc-500 dark:text-zinc-400">
+                  <h3 className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
                     {exp.duration}
                   </h3>
                 </div>

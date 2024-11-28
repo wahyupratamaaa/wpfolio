@@ -33,7 +33,7 @@ function Hero() {
         <div className="flex gap-2 align-center flex-wrap md:flex-nowrap mt-5">
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
             <h2 className="text-xl">{user_info.main.role}</h2>
-            <h1 className="mt-4 text-5xl lg:w-[85%] font-poppins  text-gray-400 flex flex-row items-center gap-4 ">
+            <h1 className="mt-4 text-5xl lg:w-[85%] font-poppins dark:text-zinc-100  text-gray-400 flex flex-row items-center gap-4 ">
               {user_info.main.name}
               <img
                 src={user_info.main.icon}
@@ -49,18 +49,18 @@ function Hero() {
               {user_info.main.description}
             </p>
 
-            <div className="flex gap-2 mt-6">
+            <div className="flex gap-2 mt-6 text-xs font-bold font-poppins">
               <a
                 href="#projects"
-                className="px-6 py-3 rounded border border-gray hover:bg-yellow-500 hover:text-black dark:border-white font-medium transition-all duration-300"
+                className="px-6 py-3 rounded border border-gray hover:bg-[#FABC3F] hover:text-white dark:border-white transition-all duration-300"
               >
-                Projects
+                Portofolio
               </a>
               <a
                 href="#contact"
                 className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
               >
-                <span className="self-center font-medium">Contact</span>
+                <span className="self-center">Contact</span>
                 <IoIosArrowForward className="self-center" />
               </a>
             </div>
