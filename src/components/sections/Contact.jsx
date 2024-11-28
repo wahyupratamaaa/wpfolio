@@ -69,19 +69,19 @@ function Contact() {
       <hr className="mt-6 w-72 border dark:border-zinc-800" />
 
       {/* =========== EMAIL =========== */}
-      <div className="flex flex-row items-center justify-between mb-10">
+      <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-2 space-y-2 lg:space-y-0 items-start justify-between mb-10">
         <a
-          href={`mailto:${user_info.main.email}`}
-          className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-30"
+          href={`${user_info.main.email}`}
+          className="flex mt-6 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 gap-4 hover:text-zinc-700 transition-all duration-300 mb-5"
         >
           <MdEmail className="self-center text-lg text-red-800 dark:text-red-500" />
           <span>{user_info.main.email}</span>
         </a>
         <button
           onClick={() => scrollToTop()}
-          className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 mx-auto md:mx-0 text-sm font-light flex gap-2 justify-center items-center"
+          className="text-zinc-600 self-center mt-2 md:mt-0 dark:text-zinc-300 mx-auto md:mx-0 text-sm font-light flex gap-2 justify-start "
         >
-          <FaArrowCircleUp className="self-center text-red-800 dark:text-red-500" />{" "}
+          <FaArrowCircleUp className="self-center text-red-800 dark:text-red-500" />
           Go back to top
         </button>
       </div>

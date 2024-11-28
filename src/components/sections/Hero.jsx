@@ -8,16 +8,16 @@ function Hero() {
       className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 lg:px-24"
     >
       <div className="self-center">
-        <div className="hs-tooltip [--placement:right] w-20 hs-tooltip-toggle">
+        <div className="hs-tooltip [--placement:right] w-[200px] hs-tooltip-toggle">
           <img
             src={user_info.main.photo}
-            className="rounded-full mb-6 lg:hidden"
-            alt="Daniel Shan Balico Graduation Picture"
+            className="rounded-[10%] transform rotate-3 mb-6 lg:hidden"
+            alt="Wahyu Pratama"
           />
 
           {/* =========== TOOLTIP TEXT =========== */}
           <span
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity  inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
+            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
             role="tooltip"
           >
             Hello! 👋 How are you doing? 🤔
@@ -33,7 +33,7 @@ function Hero() {
         <div className="flex gap-2 align-center flex-wrap md:flex-nowrap mt-5">
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
             <h2 className="text-xl">{user_info.main.role}</h2>
-            <h1 className="mt-4 text-5xl lg:w-[85%] font-comfortaa">
+            <h1 className="mt-4 text-5xl lg:w-[85%] font-poppins font-bold text-gray-400">
               {user_info.main.name}
             </h1>
 
@@ -44,7 +44,7 @@ function Hero() {
             <div className="flex gap-2 mt-6">
               <a
                 href="#projects"
-                className="px-6 py-3 rounded border border-gray hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
+                className="px-6 py-3 rounded border border-gray hover:bg-yellow-500 hover:text-black dark:border-white font-medium transition-all duration-300"
               >
                 Projects
               </a>

@@ -10,10 +10,12 @@ export default {
     extend: {
       fontFamily: {
         heebo: ["Heebo", "sans-serif"],
-        // poppins: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
         reenie: ["Reenie Beanie", "cursive"],
         aurore: ["La Belle Aurore", "cursive"],
         comfortaa: ["Comfortaa", "cursive"],
+        roboto: ["Roboto Mono", "monospace"],
+        baloo: ["Baloo Bhaijaan 2", "cursive"],
       },
     },
   },
