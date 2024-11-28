@@ -45,7 +45,7 @@ function Hero() {
             className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
             role="tooltip"
           >
-            Hello! 👋 How are you doing? 🤔
+            Semester 5 Dancok angel eram 🤯
           </span>
           <div className="hidden lg:block w-[480px] self-center">
             <img
@@ -55,9 +55,9 @@ function Hero() {
             />
           </div>
         </div>
-        <div className="flex gap-2 align-center flex-wrap md:flex-nowrap mt-5">
+        <div className="flex gap-2 align-center flex-wrap md:flex-nowrap mt-10">
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
-            <h2 className="text-xl">{user_info.main.role}</h2>
+            <h2 className="text-lg opacity-60">{user_info.main.role}</h2>
             <h1 className="mt-4 text-5xl lg:w-[85%] font-poppins dark:text-zinc-100  text-gray-400 flex flex-row items-center gap-4 ">
               {user_info.main.name}
               <img
@@ -82,7 +82,7 @@ function Hero() {
             <div className="flex gap-2 mt-6 text-xs font-bold font-poppins">
               <a
                 href="#projects"
-                className="px-6 py-3 rounded border border-gray hover:bg-[#FABC3F] hover:text-white dark:border-white transition-all duration-300"
+                className="px-6 py-3 rounded border border-gray hover:bg-[#FABC3F] hover:text-red-800 dark:border-white transition-all duration-300"
               >
                 Portofolio
               </a>

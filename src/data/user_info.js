@@ -5,7 +5,7 @@ const info = {
     description:
       "Having 6 months of experience since June, I am currently honing my skills through the Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7 program and qualifying for the Fullstack Talent Class at TalentHub Batch 17. Previously, I had the opportunity to become a selected student in the Kampus Merdeka Mandiri Inbound program at Malang State University. ",
 
-    role: "Student Informatic",
+    role: "Informatics Engineering Student",
     photo: "../atmin.jpeg",
     email: "wahyufiver.id@gmail.com",
     icon: "../icon.webp",
@@ -24,26 +24,26 @@ const info = {
   // ============ PROJECTS ============
   projects: [
     {
-      title: "App EduBooks",
+      title: "EduBooks",
       description:
-        "Edubooks is a web platform focused on providing educational books for students, educators, and educational institutions.",
-      technologies: "HTML, CSS, JavaScript ,Flask, Glitch",
+        "EduBooks is a web platform focused on providing educational books for students, educators, and educational institutions, making it easy to access and manage learning resources.",
+      technologies: "HTML, CSS, JavaScript, Flask, Glitch",
       github: "https://github.com/wahyupratamaaa/app-EduBooks.git",
       link: "https://marketplace-edubooks.glitch.me/",
     },
     {
       title: "Todolist",
       description:
-        "Edubooks is a web platform focused on providing educational books for students, educators, and educational institutions.",
-      technologies: "HTML, CSS, JavaScript ,Flask, Glitch",
+        "A simple web-based To-Do List application that helps users manage and track their tasks effectively, with the ability to add, edit, and delete tasks.",
+      technologies: "HTML, CSS, JavaScript, Flask, Glitch",
       github: "https://github.com/wahyupratamaaa/todolist-up.git",
       // link: "https://marketplace-edubooks.glitch.me/",
     },
     {
       title: "Konseling Institut Asia",
       description:
-        "Edubooks is a web platform focused on providing educational books for students, educators, and educational institutions.",
-      technologies: "Nextjs, Tailwind, Express",
+        "A web platform for Konseling Institut Asia, offering a streamlined solution for counseling services, appointment booking, and user management.",
+      technologies: "Next.js, Tailwind, Express",
       github: "https://github.com/wahyupratamaaa/big-task.git",
       // link: "https://marketplace-edubooks.glitch.me/",
     },
