@@ -18,7 +18,7 @@ const info = {
     linkedin: "https://www.linkedin.com/in/wahyupratama24/",
     instagram:
       "https://www.instagram.com/yournotfound.co?igsh=MWo1cm5ybWR4emxmeA==",
-    // facebook: "https://facebook.com/dsbalico",
+    tiktok: "https://www.tiktok.com/@gatauarahmulai_?_t=8rlvHGMpfKE&_r=1",
   },
 
   // ============ PROJECTS ============
