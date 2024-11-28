@@ -2,6 +2,31 @@ import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
 
 function Hero() {
+  // const highlightText = (text, highlight) => {
+  //   const parts = text.split(highlight);
+  //   return (
+  //     <>
+  //       {parts[0]}
+  //       <span className="text-red-800 dark:text-red-500">{highlight}</span>
+  //       {parts[1]}
+  //     </>
+  //   );
+  // };
+  const highlightText = (text, highlights) => {
+    let modifiedText = text;
+
+    // Loop untuk memproses setiap frasa yang ingin disorot
+    highlights.forEach((highlight) => {
+      const parts = modifiedText.split(highlight);
+      modifiedText = parts.join(
+        `<span class="text-red-800 dark:text-red-500 font-bold opacity-70 ">${highlight}</span>`
+      );
+    });
+
+    // Mengembalikan HTML yang sudah dimodifikasi
+    return <span dangerouslySetInnerHTML={{ __html: modifiedText }} />;
+  };
+
   return (
     <section
       id="hero"
@@ -46,7 +71,12 @@ function Hero() {
             </div> */}
 
             <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
-              {user_info.main.description}
+              {/* {user_info.main.description} */}
+              {highlightText(user_info.main.description, [
+                "Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7",
+                "Fullstack Talent Class at TalentHub Batch 17",
+                "Kampus Merdeka Mandiri Inbound program at Malang State University.",
+              ])}
             </p>
 
             <div className="flex gap-2 mt-6 text-xs font-bold font-poppins">
