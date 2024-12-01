@@ -22,11 +22,9 @@ import { SiVisualstudiocode } from "react-icons/si";
 function Skills() {
   return (
     <section id="skills" className="mx-4 lg:mx-20">
-      {/* =========== SKILLS TITLE =========== */}
       <h4 className="text-4xl font-bold text-center mt-20 dark:text-white">
-        Technologies I Use.
+        Skills
       </h4>
-      {/* =========== LIST OF SKILLS =========== */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-4 mt-8">
         {/* <span className="inline-flex items-center justify-between gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaHtml5 className="text-2xl" /> HTML

@@ -2,7 +2,7 @@ import user_info from "../../data/user_info.js";
 import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 // import { FcGoogle } from "react-icons/fc";
-import { PiCertificateFill } from "react-icons/pi";
+// import { PiCertificateFill } from "react-icons/pi";
 // import { SiHackerrank, SiIbm } from "react-icons/si";
 
 function EducationAndExperience() {
@@ -11,19 +11,14 @@ function EducationAndExperience() {
       id="education-and-experience"
       className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2"
     >
-      {/* =========== EDUCATION =========== */}
       <div className="w-full md:w-[80%]">
-        {/* =========== EDUCATION TITLE =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaLandmark className="text-xl text-red-800 dark:text-red-500" />
           Education
         </h4>
-
-        {/* =========== EDUCATION LIST =========== */}
         {user_info.education.map((edu, index) => {
           return (
             <div key={index}>
-              {/* =========== DURATION =========== */}
               <div className="ps-2 my-2 first:mt-0 !mt-2">
                 <h3 className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
                   {edu.duration}
@@ -38,7 +33,6 @@ function EducationAndExperience() {
                 </div>
 
                 <div className="grow p-2 pb-8">
-                  {/* =========== IMAGE AND SCHOOL NAME =========== */}
                   <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
                     <img
                       className="w-9 h-9 rounded-full"
@@ -47,7 +41,7 @@ function EducationAndExperience() {
                     />
                     <div className="leading-5">
                       {edu.school}
-                      {/* =========== DEGREE =========== */}
+
                       <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
                         {edu.degree}
                       </p>
@@ -59,30 +53,20 @@ function EducationAndExperience() {
           );
         })}
 
-        {/* =========== CERTIFICATES TITLE =========== */}
-        <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
+        {/* <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
           <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
           Certificates
-        </h4>
+        </h4> */}
 
         <div
           data-hs-carousel='{"loadingClasses": "opacity-0"}'
           className="relative mt-4"
         >
-          <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
+          {/* <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
-              {/* =========== CERTIFICATES LIST =========== */}
               {user_info.certificates.map((cert, index) => {
                 return (
                   <div className="hs-carousel-slide relative" key={index}>
-                    {/* {cert.icon === "ibm" ? (
-                      <SiIbm className="text-blue-500 absolute right-5 top-0 text-5xl" />
-                    ) : cert.icon === "google" ? (
-                      <FcGoogle className="text-blue-500 absolute right-5 top-3 text-3xl" />
-                    ) : (
-                      <SiHackerrank className="text-green-500 absolute right-5 top-3 text-3xl" />
-                    )} */}
-
                     <div className="flex justify-center items-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
                       <div className="hs-tooltip [--placement:bottom] inline-block">
                         <a
@@ -91,17 +75,15 @@ function EducationAndExperience() {
                           rel="noreferrer"
                           className="hs-tooltip-toggle text-center text-gray-800 dark:text-white hover:text-red-800 hover:dark:text-red-500"
                         >
-                          {/* =========== CERTIFICATE NAME =========== */}
                           <p className=" transition duration-700 px-6 font-bold">
                             {cert.title}
                           </p>
-                          {/* =========== CERTIFICATE DESCRIPTION =========== */}
+
                           <p className=" transition duration-700 px-6 text-sm">
                             {cert.description}
                           </p>
                         </a>
 
-                        {/* =========== TOOLTIP TEXT =========== */}
                         <span
                           className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium dark:text-white rounded shadow-sm"
                           role="tooltip"
@@ -114,9 +96,9 @@ function EducationAndExperience() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
 
-          <button
+          {/* <button
             type="button"
             className="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 rounded-s-lg dark:text-white dark:hover:bg-white/10"
           >
@@ -159,10 +141,9 @@ function EducationAndExperience() {
                 <path d="m9 18 6-6-6-6"></path>
               </svg>
             </span>
-          </button>
+          </button> */}
 
-          {/* =========== CAROUSEL PAGINATION =========== */}
-          <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
+          {/* <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
             {user_info.certificates.map((cert, index) => {
               return (
                 <span
@@ -171,20 +152,17 @@ function EducationAndExperience() {
                 ></span>
               );
             })}
-          </div>
+          </div> */}
         </div>
       </div>
 
-      {/* =========== EXPERIENCE =========== */}
       <div className="w-full">
-        {/* =========== EXPERIENCE TITLE =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
           <FaBuildingUser className="text-2xl text-red-800 dark:text-red-500" />
           Experience
         </h4>
 
         <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth">
-          {/* =========== EXPERIENCE LIST =========== */}
           {user_info.experience.map((exp, index) => {
             return (
               <div key={index}>
@@ -202,7 +180,6 @@ function EducationAndExperience() {
                   </div>
 
                   <div className="grow p-2 pb-8">
-                    {/* =========== COMPANY NAME =========== */}
                     <h3 className="flex items-center gap-x-2 font-semibold text-zinc-800 dark:text-white">
                       <img
                         className="w-9 rounded-full"
@@ -211,7 +188,7 @@ function EducationAndExperience() {
                       />
                       <div className="leading-5">
                         {exp.company}
-                        {/* =========== POSITION =========== */}
+
                         <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
                           {exp.position}
                         </p>
@@ -219,7 +196,6 @@ function EducationAndExperience() {
                     </h3>
 
                     <ul className="list-disc list-inside text-zinc-800 dark:text-white mt-2">
-                      {/* =========== DESCRIPTION LIST =========== */}
                       {exp.descriptions.map((desc, index) => {
                         return (
                           <li className="flex space-x-3" key={index}>

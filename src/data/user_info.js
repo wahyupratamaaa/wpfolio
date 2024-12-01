@@ -1,5 +1,4 @@
 const info = {
-  // ============ MAIN DETAILS ============
   main: {
     name: "Hi,I'm Wahyu Pratama",
     description:
@@ -11,7 +10,6 @@ const info = {
     icon: "../icon.webp",
   },
 
-  // ============ SOCIAL LINKS ============
   socials: {
     medium: "https://medium.com/@wahyupratama_",
     github: "https://github.com/wahyupratamaaa",
@@ -21,7 +19,6 @@ const info = {
     tiktok: "https://www.tiktok.com/@gatauarahmulai_?_t=8rlvHGMpfKE&_r=1",
   },
 
-  // ============ PROJECTS ============
   projects: [
     {
       title: "EduBooks",
@@ -49,7 +46,6 @@ const info = {
     },
   ],
 
-  // ============ EDUCATION ============
   education: [
     {
       school: "Asia Institute of Technology and Business Malang",
@@ -67,7 +63,6 @@ const info = {
     },
   ],
 
-  // ============ EXPERIENCE ============
   experience: [
     {
       position: "Batch 17 Full-Stack Web Developer",
@@ -121,30 +116,60 @@ const info = {
     },
   ],
 
-  // ============ CERTIFICATES ============
   certificates: [
     {
       title: "Hackfest 2023 - Participant",
       description: "Partisipated Hipster Hackfest 2023 ",
-      //   icon: "ibm",
       link: "https://media.licdn.com/dms/image/v2/D562DAQEhiKgGrTP-bQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1722250558765?e=1733252400&v=beta&t=t2r3E-rfEHE1_dMVMrdCDG8WUlA-0HFQA48rJOiNkEk",
     },
     {
       title: "Cooming Soon",
       description: "Cooming Soon",
-      //   icon: "ibm",
       link: "",
     },
   ],
+  rekomendation: [
+    {
+      profile:
+        "https://media.licdn.com/dms/image/v2/C5103AQHOFc7tiScNcQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1557698543332?e=1738800000&v=beta&t=8dGXh021JJPElpMq4z4AqKYRiIVWQ9QXw7oZ69V48Pk",
+      name: "Dendik Wahyu Prasongko, S.Kom",
+      title: "Scrum Master & Web Developer Leader at Institut Asia Malang",
+      date: "13 November 2024, Dendik adalah atasan langsung Wahyu",
+      description:
+        "I highly recommend Wahyu Pratama as a Front-End Developer at UPTSI Institut Asia Malang. During my time working with Wahyu, I was consistently impressed by his ability to develop responsive, modern, and user-friendly interfaces. Wahyu has a deep understanding of front-end technologies like React.js, JavaScript, and CSS3, and he is always eager to stay up-to-date with the latest advancements in the tech world. His analytical skills are exceptional, enabling him to understand user requirements and translate them into intuitive, functional designs. One of Wahyu's greatest strengths is his outstanding work ethic. He consistently delivers high-quality work on time and is a highly cooperative team player who is always willing to assist others and share his knowledge to achieve collective goals. I am confident that Wahyu will be an invaluable asset to any team focused on front-end development. With his skills, dedication, and positive attitude, I have no doubt that he will continue to excel and make significant contributions in the field of front-end development.",
+      linkedin:
+        "https://www.linkedin.com/in/dendik-wahyu-prasongko-s-kom-529a6a186/",
+    },
+    {
+      profile:
+        "https://media.licdn.com/dms/image/v2/D5603AQFsZul0BRUuxg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688346998508?e=1738800000&v=beta&t=vr0nS3tyDbAL2CWIdgpEfbOUKrlD5l8591XXDxGIHxY",
+      name: "Dzikrullah Akbar",
 
-  // ============ CONTACT ============
+      title:
+        "Fullstack Developer at Institut Asia MalangFullstack Developer at Institut Asia Malang",
+      date: "31 Oktober 2024, Dzikrullah adalah atasan langsung Wahyu",
+      description:
+        "I am thrilled to recommend Wahyu for their exceptional work as a Front End Developer on our web app project for the counseling agency. He demonstrated remarkable skills in creating a user-friendly interface that enhanced user engagement and accessibility. Throughout the project, Wahyu consistently delivered high-quality work on time, meeting all targets with impressive speed and efficiency. His attention to detail and problem-solving abilities ensured that we not only met our deadlines but also exceeded expectations in terms of functionality and design. Wahyu's collaborative spirit and proactive communication made working together a pleasure. I am confident that he will bring the same level of dedication and expertise to any future projects. I highly recommend Wahyu to any team looking for a talented Front End Developer.",
+      linkedin: "https://www.linkedin.com/in/dzikrullah-akbar-82815b1b2/",
+    },
+    {
+      profile:
+        "https://media.licdn.com/dms/image/v2/D4E03AQGDwltGVtRvsA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1641472316964?e=1738800000&v=beta&t=u8wuwenA4ZX-wzsSxNLMc9hAVNUJe7C500psdhmGoAg",
+      name: "Zain Bagus",
+      title:
+        "Python (Django) Backend DeveloperPython (Django) Backend Developer",
+      date: "31 Oktober 2024, Zain pernah bekerja bersama Wahyu di tim yang sama",
+      description:
+        "I had the pleasure of working alongside Wahyu at Institut Teknologi & Bisnis ASIA, where he excelled as a Frontend Developer. Collaborating with Wahyu was always seamless, as he consistently demonstrated a keen eye for detail, creativity in solving UI challenges, and a solid understanding of user experience principles. His ability to transform complex requirements into visually engaging and user-friendly designs was impressive. In our development projects, Wahyu’s proactive communication and teamwork skills helped bridge the gap between frontend and backend, ensuring that our applications were not only functional but also cohesive and efficient. His dedication to code quality and his openness to new technologies made him an invaluable asset to the team. I am confident that Wahyu will bring the same level of commitment and excellence to any team he joins.",
+      linkedin: "https://www.linkedin.com/in/zenbgs/",
+    },
+  ],
   contact: {
     title: "Let's Get in Touch: Ways to Connect with Me",
     description:
       "Thank you for your interest in contacting me. I welcome your feedback, questions, and suggestions. If you have any specific questions or comments, please feel free to email me directly at wahyufiver.id@gmail.com. I endeavor to reply to all messages within 24 hours, although it may take longer during busy periods. ",
   },
 
-  // ============ FOOTER ============
   footer: "© 2024 All Rights Reserved",
 };
 

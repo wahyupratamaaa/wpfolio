@@ -2,16 +2,6 @@ import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
 
 function Hero() {
-  // const highlightText = (text, highlight) => {
-  //   const parts = text.split(highlight);
-  //   return (
-  //     <>
-  //       {parts[0]}
-  //       <span className="text-red-800 dark:text-red-500">{highlight}</span>
-  //       {parts[1]}
-  //     </>
-  //   );
-  // };
   const highlightText = (text, highlights) => {
     let modifiedText = text;
 
@@ -39,8 +29,6 @@ function Hero() {
             className="rounded-[10%] transform rotate-3 mb-6 lg:hidden"
             alt="Wahyu Pratama"
           />
-
-          {/* =========== TOOLTIP TEXT =========== */}
           <span
             className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
             role="tooltip"

@@ -9,6 +9,7 @@ import Projects from "../components/sections/Projects.jsx";
 import Contact from "../components/sections/Contact.jsx";
 import EducationAndExperience from "../components/sections/EducationAndExperience.jsx";
 import Skills from "../components/sections/Skills.jsx";
+import Rekomendation from "../components/sections/Rekomendation.jsx";
 
 function Homepage() {
   const { switchTheme } = useContext(AppContext);
@@ -27,6 +28,11 @@ function Homepage() {
         <EducationAndExperience />
         <Projects />
         <Skills />
+        <h4 className="text-4xl font-bold text-center mt-20 dark:text-white px-5">
+          Mentors and {""}
+          <span className="text-red-800">Recommendations</span>
+        </h4>
+        <Rekomendation />
         <Contact />
       </div>
     </div>

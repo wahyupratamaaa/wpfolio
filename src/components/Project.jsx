@@ -7,7 +7,7 @@ function Project({ title, description, technologies, link, github }) {
         {/* =========== TECHNOLOGIES USED =========== */}
         {technologies.split(",").map((tech, index) => (
           <span
-            className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500"
+            className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded text-xs font-medium bg-black opacity-50 text-white dark:bg-red-800/30 dark:text-red-500"
             key={index}
           >
             {tech}
