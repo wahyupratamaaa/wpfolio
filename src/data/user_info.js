@@ -2,7 +2,7 @@ const info = {
   main: {
     name: "Hi,I'm Wahyu Pratama",
     description:
-      "Having 6 months of experience since June, I am currently honing my skills through the Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7 program and qualifying for the Fullstack Talent Class at TalentHub Batch 17. Previously, I had the opportunity to become a selected student in the Kampus Merdeka Mandiri Inbound program at Malang State University. ",
+      "Having 6 months of experience since June, I am currently honing my skills through the Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7 program and qualifying for the Fullstack Talent Class at Kemnaker Semarang Batch 17. Previously, I had the opportunity to become a selected student in the Kampus Merdeka Mandiri Inbound program at Malang State University. ",
 
     role: "Informatics Engineering Student",
     photo: "../atmin.jpeg",

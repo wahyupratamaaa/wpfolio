@@ -62,7 +62,7 @@ function Hero() {
               {/* {user_info.main.description} */}
               {highlightText(user_info.main.description, [
                 "Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7",
-                "Fullstack Talent Class at TalentHub Batch 17",
+                "Fullstack Talent Class at Kemnaker Semarang Batch 17",
                 "Kampus Merdeka Mandiri Inbound program at Malang State University.",
               ])}
             </p>
