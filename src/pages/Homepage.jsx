@@ -28,9 +28,8 @@ function Homepage() {
         <EducationAndExperience />
         <Projects />
         <Skills />
-        <h4 className="text-4xl font-bold text-center mt-20 dark:text-white px-5">
-          Mentors and {""}
-          <span className="text-red-800">Recommendations</span>
+        <h4 className="text-4xl font-bold text-center mt-20 dark:text-white px-5 text-red-800">
+          Mentors
         </h4>
         <Rekomendation />
         <Contact />
