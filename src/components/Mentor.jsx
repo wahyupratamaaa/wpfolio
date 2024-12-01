@@ -17,13 +17,18 @@ function Mentor({ profile, name, date, description, title, linkedin }) {
           <p className="text-xs text-zinc-500 dark:text-zinc-400 ">{date}</p>
         </div>
       </div>
-      <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
-        {description}
-      </p>
-      <a href={linkedin} className="absolute bottom-4 right-4">
-        <ImLinkedin2 className="text-red-600 text-2xl cursor-pointer" />
-      </a>
-      <></>
+      <div className="flex flex-col justify-between">
+        <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
+          {description}
+        </p>
+        <a
+          href={linkedin}
+          className="absolute bottom-4 right-4 rounded-full p-1"
+        >
+          <ImLinkedin2 className="text-red-600 text-2xl cursor-pointer" />
+        </a>
+      </div>
+      {/* <></> */}
     </div>
   );
 }
