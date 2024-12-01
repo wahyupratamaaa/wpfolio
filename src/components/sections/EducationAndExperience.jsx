@@ -2,7 +2,7 @@ import user_info from "../../data/user_info.js";
 import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 // import { FcGoogle } from "react-icons/fc";
-// import { PiCertificateFill } from "react-icons/pi";
+import { PiCertificateFill } from "react-icons/pi";
 // import { SiHackerrank, SiIbm } from "react-icons/si";
 
 function EducationAndExperience() {
@@ -53,16 +53,16 @@ function EducationAndExperience() {
           );
         })}
 
-        {/* <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
+        <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
           <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
           Certificates
-        </h4> */}
+        </h4>
 
         <div
           data-hs-carousel='{"loadingClasses": "opacity-0"}'
           className="relative mt-4"
         >
-          {/* <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
+          <div className="hs-carousel relative overflow-hidden w-full h-48 bg-white dark:bg-gray-800 rounded-lg">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               {user_info.certificates.map((cert, index) => {
                 return (
@@ -96,9 +96,9 @@ function EducationAndExperience() {
                 );
               })}
             </div>
-          </div> */}
+          </div>
 
-          {/* <button
+          <button
             type="button"
             className="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 rounded-s-lg dark:text-white dark:hover:bg-white/10"
           >
@@ -141,9 +141,9 @@ function EducationAndExperience() {
                 <path d="m9 18 6-6-6-6"></path>
               </svg>
             </span>
-          </button> */}
+          </button>
 
-          {/* <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
+          <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
             {user_info.certificates.map((cert, index) => {
               return (
                 <span
@@ -152,7 +152,7 @@ function EducationAndExperience() {
                 ></span>
               );
             })}
-          </div> */}
+          </div>
         </div>
       </div>
 

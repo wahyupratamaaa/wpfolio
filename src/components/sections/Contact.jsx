@@ -64,13 +64,13 @@ function Contact() {
           <FaLinkedin className="self-center text-lg text-red-800 dark:text-red-500" />
           <span className="self-center">Follow on Linkedin</span>
         </a>
-        {/* <a
+        <a
           href={user_info.socials.github}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
         >
           <FaGithub className="self-center text-lg text-red-800 dark:text-red-500" />
           <span className="self-center">Follow on Github</span>
-        </a> */}
+        </a>
         <a
           href={user_info.socials.tiktok}
           className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
