@@ -23,12 +23,11 @@ function Mentor({ profile, name, date, description, title, linkedin }) {
         </p>
         <a
           href={linkedin}
-          className="absolute bottom-4 right-4 rounded-full p-5 border border-red-700"
+          className="absolute bottom-4 right-4 rounded-full p-5 "
         >
           <ImLinkedin2 className="text-red-600 text-2xl cursor-pointer" />
         </a>
       </div>
-      {/* <></> */}
     </div>
   );
 }
