@@ -10,6 +10,7 @@ import Contact from "../components/sections/Contact.jsx";
 import EducationAndExperience from "../components/sections/EducationAndExperience.jsx";
 import Skills from "../components/sections/Skills.jsx";
 import Rekomendation from "../components/sections/Rekomendation.jsx";
+import Produks from "../components/sections/Produk.jsx";
 
 function Homepage() {
   const { switchTheme } = useContext(AppContext);
@@ -33,6 +34,7 @@ function Homepage() {
         </h4>
         <Rekomendation />
         <Contact />
+        {/* <Produks /> */}
       </div>
     </div>
   );

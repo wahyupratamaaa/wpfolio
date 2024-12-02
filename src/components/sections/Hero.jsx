@@ -54,9 +54,6 @@ function Hero() {
                 className="w-20 h-auto opacity-80"
               />
             </h1>
-            {/* <div>
-              <img src={user_info.main.icon} alt="icon" />
-            </div> */}
 
             <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
               {/* {user_info.main.description} */}
