@@ -193,6 +193,9 @@ function EducationAndExperience() {
                         <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400">
                           {exp.position}
                         </p>
+                        <p className="font-normal text-xs text-zinc-600 dark:text-zinc-400 ">
+                          {exp.location}
+                        </p>
                       </div>
                     </h3>
 
