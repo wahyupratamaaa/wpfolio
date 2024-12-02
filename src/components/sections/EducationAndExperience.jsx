@@ -16,6 +16,7 @@ function EducationAndExperience() {
           <FaLandmark className="text-xl text-red-800 dark:text-red-500" />
           Education
         </h4>
+
         {user_info.education.map((edu, index) => {
           return (
             <div key={index}>

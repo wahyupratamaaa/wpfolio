@@ -5,7 +5,6 @@ function Hero() {
   const highlightText = (text, highlights) => {
     let modifiedText = text;
 
-    // Loop untuk memproses setiap frasa yang ingin disorot
     highlights.forEach((highlight) => {
       const parts = modifiedText.split(highlight);
       modifiedText = parts.join(
@@ -13,7 +12,6 @@ function Hero() {
       );
     });
 
-    // Mengembalikan HTML yang sudah dimodifikasi
     return <span dangerouslySetInnerHTML={{ __html: modifiedText }} />;
   };
 
@@ -56,7 +54,6 @@ function Hero() {
             </h1>
 
             <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[87%] leading-7">
-              {/* {user_info.main.description} */}
               {highlightText(user_info.main.description, [
                 "Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7",
                 "Fullstack Talent Class at Kemnaker Semarang Batch 17",
@@ -67,7 +64,7 @@ function Hero() {
             <div className="flex gap-2 mt-6 text-xs font-bold font-poppins">
               <a
                 href="#projects"
-                className="px-6 py-3 rounded border border-gray hover:bg-[#FABC3F] hover:text-red-800 dark:border-white transition-all duration-300"
+                className="px-6 py-3 rounded border border-gray hover:bg-red-800 hover:text-white dark:border-white transition-all duration-300"
               >
                 Portofolio
               </a>

@@ -14,9 +14,8 @@
 
 /* @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap"); */
 
-/* Global root styles */
 :root {
-  font-family: "Heebo", sans-serif; /* Default font adalah Heebo */
+  font-family: "Heebo", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,19 +23,15 @@
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar styling */
-/* Lebar scroll */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-/* Gaya thumb scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #991b1b; /* Warna utama scrollbar */
+  background: #991b1b;
 }
 
-/* Hover efek untuk thumb scrollbar */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Warna thumb saat hover */
+  background: #555;
 }
