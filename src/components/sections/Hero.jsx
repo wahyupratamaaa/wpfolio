@@ -58,6 +58,7 @@ function Hero() {
                 "Independent Study Fullstack Web Developer MSIB Kampus Merdeka Batch 7",
                 "Fullstack Talent Class at Kemnaker Semarang Batch 17",
                 "Kampus Merdeka Mandiri Inbound program at Malang State University.",
+                "Web Developer",
               ])}
             </p>
 
